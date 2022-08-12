@@ -74,7 +74,6 @@ main{
 .linkedin{
     display: flex;
     justify-content: center;
-    gap: 5%;
 }
 .linkedin a{
     color: #ffffff;
@@ -88,9 +87,6 @@ main{
 }
 .linkedin-button img{
     width: 22px;
-}
-.ig-button img{
-    width: 25px;
 }
 .linkedin a:hover{
     box-shadow: 1px 5px 10px #0000ff;
