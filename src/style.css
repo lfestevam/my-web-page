@@ -169,9 +169,17 @@ main{
     header{
 
     }
+    main{
+        max-width: auto;
+    }
     .about{
         display: flex;
         flex-direction: column;
         text-align: center;
+        width: auto;
+    }
+    .container-tec{
+        display: flex;
+        gap: 100%;
     }
 }
