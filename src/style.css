@@ -26,20 +26,24 @@ header{
     z-index: 2;
     background-color: rgba(255, 255, 255, 0.432);
 }
+#btn-mobile{
+    display: none;
+    padding: 5px;
+}
 header h1{
     color: #000000;
 }
-.navegacao{
+#menu{
     display: flex;
     gap: 1vw;
     font-size: 140%;
     list-style: none;
 }
-.navegacao a{
+#menu a{
     text-decoration: none;
     color: #000000;
 }
-.navegacao a:hover{
+#menu a:hover{
     color: #0000ff;
 }
 main{
@@ -98,9 +102,6 @@ main{
     justify-content: center;
     align-items: center;
     gap: 5%;
-}
-.about p{
-
 }
 .my-pic{
     width: 200px;
@@ -165,20 +166,31 @@ main{
 }
 
 @media screen and (max-width: 40em) {
-    /*aqui vai ser o menu de celular !!!!!!!
-    menu mobile;
-    section sobre mim : foto em cima e texto embaico centralizado;
-    cards 1 por vez, e abaixo um dos outros*/
-    header{
-
-    }
     *{
         max-width: 100%;
+    }
+    #btn-mobile{
+        display: block;
+    }
+    #menu{
+        background-color: rgba(255, 255, 255, 0.432);
+        padding: 30px;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        height: 250%;
+        display: block;
+        visibility: hidden;
+    }
+    .active #menu{
+        height: 250%;
+        visibility: visible;
+        overflow-y: auto;
     }
     .about{
         display: flex;
         flex-direction: column;
-        margin-top: 10%;
         text-align: center;
     }
     .about p{
@@ -188,4 +200,5 @@ main{
         display: flex;
         gap: 100%;
     }
+
 }
