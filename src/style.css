@@ -160,9 +160,18 @@ main{
     display: flex;
     margin-top: 5%;
 }
-/*@media screen and (min-width: 22em) and (max-width: 80em) {
-    aqui vai ser o menu de celular !!!!!!!
+
+@media screen and (max-width: 600px) {
+    /*aqui vai ser o menu de celular !!!!!!!
+    menu mobile;
+    section sobre mim : foto em cima e texto embaico centralizado;
+    cards 1 por vez, e abaixo um dos outros*/
     header{
-        gap:
+
     }
-}*/
+    .about{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
