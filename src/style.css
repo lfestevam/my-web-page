@@ -172,6 +172,7 @@ main{
 .container-projetos{
     display: flex;
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
     margin-top: 5%;
     gap: 3%;
