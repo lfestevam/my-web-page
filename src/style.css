@@ -11,9 +11,10 @@ body{
     display: grid;
     grid-template-areas:
     "header header"
-    "main main";
+    "main main"
+    "footer footer";
 
-    grid-template-rows: 0vh auto;
+    grid-template-rows: 0vh auto 10vh;
 }
 header{
     grid-area: header;
@@ -69,6 +70,7 @@ main{
 .foto-de-perfil{
     width: 110px;
     border-radius: 50%;
+    box-shadow: 2px 20px 50px #656b70;
 }
 .apresentacao{
     text-align: center;
@@ -84,7 +86,7 @@ main{
     text-decoration: none;
     padding: 10px;
     background-color: #000000;
-    border: 1px solid #8a2be2;
+    border: 2px solid #8a2be2;
     border-radius: 20px;
     display: flex;
     gap: 5%;
@@ -93,7 +95,7 @@ main{
     width: 22px;
 }
 .linkedin a:hover{
-    box-shadow: 1px 5px 10px #0000ff;
+    box-shadow: 1px 5px 10px #656b70;
 }
 .about{
     width:  auto;
@@ -124,7 +126,7 @@ main{
 .card{
     width: 250px;
     height: 300px;
-    border: 1px solid #000000;
+    border: 2px solid #8a2be2;
     border-radius: 10px;
     padding: 20px;
     position: relative;
@@ -147,22 +149,81 @@ main{
 }
 .card-text{
     width: 90%;
-    height: 85%;
+    height: 75%;
     position: absolute;
-    transform: translateY(100%);
+    transform: translateY(115%);
     z-index: 1;
     transition: .5s ease-in-out;
 }
 .card:hover .card-text{
     transform: translateY(35%);
 }
+.projects{
+    background-color: #ffffff;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .projects-titulo{
-    margin-top: 10%;
+    margin-top: 3%;
     text-align: center;
 }
 .container-projetos{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 5%;
+    gap: 3%;
+}
+.card-p{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #8a2be2;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    background-color: #ffffff;
+}
+.img-p{
+    width: 300px;
+    position: relative;
+    left: 30px;
+    transition: 0.3s ease-in-out;
+    opacity: 0.5;
+    border-bottom: 3%;
+}
+.img-p:hover{
+    opacity: 1;
+    margin-top: -2px;
+    box-shadow: 2px 20px 50px #656b70;
+}
+.link-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-github{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #000000;
+    border: 2px solid #8a2be2;
+    border-radius: 20px;
+    width: 175px;
+    margin-bottom: 3%;display: flex;
+    justify-content: center;
+}
+.link-github:hover{
+    color: #0000ff;
+}
+footer{
+    grid-area: footer;
+    background-color: #708090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 40em) {
@@ -200,5 +261,7 @@ main{
         display: flex;
         gap: 100%;
     }
-
+    .container-projetos{
+        flex-direction: column;
+    }
 }
