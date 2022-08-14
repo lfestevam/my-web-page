@@ -263,5 +263,6 @@ footer{
     }
     .container-projetos{
         flex-direction: column;
+        width: 370px;
     }
 }
