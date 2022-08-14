@@ -185,11 +185,13 @@ main{
     box-sizing: border-box;
     margin-bottom: 3%;
     background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .img-p{
     width: 300px;
-    position: relative;
-    left: 30px;
     transition: 0.3s ease-in-out;
     opacity: 0.5;
     border-bottom: 3%;
@@ -204,6 +206,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3%;
 }
 .link-github{
     color: #ffffff;
