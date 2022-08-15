@@ -243,6 +243,11 @@ footer{
         display: block;
         visibility: hidden;
     }
+    .img-menu{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
     .active #menu{
         height: auto;
         visibility: visible;
