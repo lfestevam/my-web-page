@@ -52,7 +52,6 @@ main{
 .inicio{
     background-color:#708090;
     width: 100%;
-
 }
 .conteiner-inicio{
     padding: 20vh 0vh;
@@ -229,6 +228,7 @@ footer{
 @media screen and (max-width: 40em) {
     *{
         max-width: 100%;
+        overflow-x: hidden !important;
     }
     #btn-mobile{
         display: block;
