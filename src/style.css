@@ -68,6 +68,8 @@ main{
     box-shadow: 2px 20px 50px #656b70;
 }
 .apresentacao{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-size: 40px;
     color: #ffffff;
@@ -227,10 +229,14 @@ footer{
 }
 
 @media screen and (max-width: 40em) {
-    *{
-        max-width: 100%;
+    .apresentacao h1{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
     }
-    .apresentacao{
+    .apresentacao p{
+        display: flex;
+        justify-content: center;
         font-size: 30px;
     }
     #btn-mobile{
