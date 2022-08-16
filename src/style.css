@@ -230,6 +230,9 @@ footer{
     *{
         max-width: 100%;
     }
+    .apresentacao{
+        font-size: 30px;
+    }
     #btn-mobile{
         display: block;
     }
