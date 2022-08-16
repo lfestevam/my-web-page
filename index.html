@@ -7,59 +7,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-    
+    <!--CSS-->
     <link rel="stylesheet" href="./src/style.css">
+    <!--------------------------------------------------->
     <title> Portfólio | Luís Estevam</title>
 </head>
 <body>
     <header>
         <h1>Luís Estevam</h1>
         <nav id="nav">
-            <button type="button" id="btn-mobile"><img src="./src/imagenssite/icon-menu.png" alt="menu" class="img-menu"></button>
+            <button type="button" id="btn-mobile"><img src="./src/imagenssite/icon-menu.png" alt="menu" class="img-menu" title="menu-mobile"></button>
             <ul id="menu">
-                <li><a href="#inicio" title="Inicio" id="init">Inicio</a></li>
-                <li><a href="#about" title="Sobre" id="sobre">Sobre</a></li>
-                <li><a href="#tec" title="Tecnologias" id="tecno">Tecnologias</a></li>
-                <li><a href="#projects" title="Projetos" id="projectsr">Projetos</a></li>
+                <li><a href="#inicio" title="Inicio" id="init" title="Inicio">Inicio</a></li>
+                <li><a href="#about" title="Sobre" id="sobre" title="sobre">Sobre</a></li>
+                <li><a href="#tec" title="Tecnologias" id="tecno" title="Tecnologias">Tecnologias</a></li>
+                <li><a href="#projects" title="Projetos" id="projectsr" title="Alguns-projetos">Projetos</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <!--First Section-->
-        <section class="inicio" id="inicio">
+        <section class="inicio" id="inicio" title="Sessão-inicio">
             <div class="conteiner-inicio">
-                <div class="foto-perfil">
+                <div class="foto-perfil" title="foto-de-perfil">
                     <img src="./src/imagenssite/linkedinperfil.jpeg" alt="foto-de-perfil" title="foto-de-perfil" class="foto-de-perfil">
                 </div>
-                <div class="apresentacao">
+                <div class="apresentacao" title="Apresentação">
                     <h1 title="meu-nome">Luís Estevam</h1>
                     <p title="descrição">Estudante & Desenvolvedor</p>
                 </div>
-                <div class="linkedin">
+                <div class="linkedin" title="Link-para-linkedin">
                     <a href="https://www.linkedin.com/in/lu%C3%ADs-estevam-devweb1307/" target="blnak" title="botão-linkedin" class="linkedin-button">LinkedIn<img src="./src/imagenssite/linkedin-logo.png" alt="logo-ig"></a>
                 </div>
             </div>
         </section>
         <!--Second Section-->
-        <section class="about" id="about">
+        <section class="about" id="about" title="Sobre">
             <div class="container-about"></div>
                 <div class="about-img">
                     <img src="./src/imagenssite/my-pic.png" alt="my-picture" class="my-pic">
                 </div>
                 <div class="content-about">
-                    <h1>Sobre mim:</h1>
-                    <p>Olá meu nome é Luís, sou um pernambucano formado em fisioterapia, sempre fui ligado a tecnologia, e ao terminar a graduação em fisioterapia decidi me dedicar mais a programação.<br>
+                    <h1 title="Titulo">Sobre mim:</h1>
+                    <p title="Texto-sobre-mim">Olá meu nome é Luís, sou um pernambucano formado em fisioterapia, sempre fui ligado a tecnologia, e ao terminar a graduação em fisioterapia decidi me dedicar mais a programação.<br>
                     Atualmente estou me aprofundando nas tecnologias utilizadas no desenvolvimento web, tanto Front-end, quanto Back-end.
                     </p>
                 </div>
             </div>
         </section>
         <!--Third Section-->
-        <section class="tecnology" id="tec">
+        <section class="tecnology" id="tec" title="tecnologias">
             <h2>Tecnologias</h2>
             <div class="container-tec">
                 <!--First Card-->
-                <div class="card">
+                <div class="card" title="HTML">
                     <h3>| HTML</h3>
                     <img src="./src/imagenssite/HTMLlogo.png" alt="logo-html" class="img-card">
                     <div class="card-text">
@@ -67,7 +68,7 @@
                     </div>
                 </div>
                 <!--Second Card-->
-                <div class="card">
+                <div class="card" title="CSS">
                     <h3>| CSS</h3>
                     <img src="./src/imagenssite/csslogocard.png" alt="logo-html" class="img-card">
                     <div class="card-text">
@@ -75,7 +76,7 @@
                     </div>
                 </div>
                 <!--Third card-->
-                <div class="card">
+                <div class="card" title="JS">
                     <h3>| JavaScript</h3>
                     <img src="./src/imagenssite/JSlogo.png" alt="logo-html" class="img-card">
                     <div class="card-text">
@@ -84,7 +85,7 @@
                 </div>
                 <!--Botão ver mais-->
                 <!--Fourth Card-->
-                <div class="card">
+                <div class="card" title="Node.JS">
                     <h3>| Node.JS</h3>
                     <img src="./src/imagenssite/node-logo.png" alt="logo-html" class="img-card">
                     <div class="card-text">
@@ -92,14 +93,14 @@
                     </div>
                 </div>
                 <!--Fifth Card-->
-                <div class="card">
+                <div class="card" title="SQL">
                     <h3>| SQL</h3>
                     <img src="./src/imagenssite/sql-logo.png" alt="logo-html" class="img-card">
                     <div class="card-text">
                         <p>O SQL é uma tecnologia que permite pesquisa e consulta em banco de dados.<br>Possuo 1.5 meses de experiencia com essa tecnologia.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" title="Salesforce">
                     <h3>| SalesForce</h3>
                     <img src="./src/imagenssite/salesforce-logo.png" alt="logo-salesforce" class="img-card">
                     <div class="card-text">
@@ -109,10 +110,10 @@
             </div>
         </section>
         <!--Fourth Section-->
-        <section class="projects" id="projects">
+        <section class="projects" id="projects" title="Projetos">
                 <h2>Projetos</h2>
             <div class="container-projetos">
-                <div class="card-p">
+                <div class="card-p" title="Primeiro Projeto">
                     <img src="./src/imagenssite/projeto1.png" alt="img1" class="img-p">
                     <h3>Descrição:</h3>
                     <p>Meu primeiro site, realizado com intuito de publicar meus projetos e observar minha evolução.<br><b>Projeto realizado utilizando HTML, CSS e JavaScript puro.</b></p> 
@@ -124,7 +125,7 @@
                 </div>
             </div>
             <div class="link-projetos">
-                <a href="https://github.com/lfestevam" class="link-github">Repositórios GitHub</a>
+                <a href="https://github.com/lfestevam" class="link-github">Perfil GitHub</a>
                 </div>
         </section>
     </main>
