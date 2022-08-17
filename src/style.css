@@ -228,8 +228,6 @@ footer{
 @media screen and (max-width: 40em) {
     *{
         max-width: 100%;
-    }
-    main{
         overflow-x: hidden;
     }
     #btn-mobile{
