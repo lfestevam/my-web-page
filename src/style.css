@@ -15,7 +15,6 @@ body{
     "footer footer";
 
     grid-template-rows: 0vh auto 10vh;
-    overflow-x: hidden;
 }
 header{
     grid-area: header;
@@ -229,6 +228,9 @@ footer{
 @media screen and (max-width: 40em) {
     *{
         max-width: 100%;
+    }
+    main{
+        overflow-x: hidden;
     }
     #btn-mobile{
         display: block;
