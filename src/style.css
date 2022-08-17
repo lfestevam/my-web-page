@@ -228,7 +228,6 @@ footer{
 @media screen and (max-width: 40em) {
     *{
         max-width: 100%;
-        overflow-x: hidden !important;
     }
     #btn-mobile{
         display: block;
@@ -253,6 +252,12 @@ footer{
         visibility: visible;
         overflow-y: auto;
     }
+    .apresentacao h1{
+        font-size: 30px;
+    }
+    .apresentacao p{
+        font-size: 30px;
+    }
     .about{
         display: flex;
         flex-direction: column;
@@ -267,7 +272,6 @@ footer{
     }
     .container-projetos{
         display: flex;
-        gap: 100%;
     }
     .card-p{
         flex-direction: column;
