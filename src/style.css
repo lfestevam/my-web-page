@@ -252,11 +252,11 @@ footer{
         visibility: visible;
         overflow-y: auto;
     }
-    .apresentacao h1{
-        font-size: 30px;
+    .apresentacao{
+        font-size: 20px;
     }
-    .apresentacao p{
-        font-size: 30px;
+    .linkedin a{
+        padding: 7px;
     }
     .about{
         display: flex;
@@ -272,6 +272,7 @@ footer{
     }
     .container-projetos{
         display: flex;
+        gap: 100%;
     }
     .card-p{
         flex-direction: column;
